@@ -1,0 +1,58 @@
+.grid {
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.grid * {
+  font-family: var(--font-geist-sans);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2rem 3rem;
+  overflow: hidden;
+
+  .name {
+    font-weight: 200;
+    font-size: 2.5rem;
+  }
+
+  .desc {
+    font-weight: bolder;
+    font-size: 1.25rem;
+  }
+}
+
+.nav_wrap {
+  padding-bottom: 1rem;
+  background-color: var(--fore20);
+}
+
+.nav {
+  display: flex;
+  padding: 0 2rem;
+  background-color: var(--fore30);
+
+  .navitem {
+    width: fit-content;
+    padding: 0.75rem 1rem;
+
+    &:hover {
+      background-color: var(--fore20);
+    }
+
+    &.active {
+      font-weight: 900;
+    }
+  }
+}
+
+.content {
+  padding: 1rem 3rem 2rem;
+  overflow-y: scroll;
+}

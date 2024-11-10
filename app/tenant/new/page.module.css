@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+
+  background-color: var(--fore30);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 0.5rem;
+  column-gap: 3rem;
+  align-items: baseline;
+
+  margin-bottom: 1rem;
+
+  & *:nth-child(2n-1) {
+    font-weight: bolder;
+  }
+
+  & input,
+  & textarea {
+    padding: 0.5rem;
+    border-radius: 6px;
+
+    outline: var(--foreground) solid 1px;
+
+    font: var(--font-geist-sans);
+    font-size: inherit;
+
+    &:hover {
+      background-color: var(--hover);
+    }
+  }
+
+  & textarea {
+    min-height: 3rem;
+  }
+}

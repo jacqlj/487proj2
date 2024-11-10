@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+CMPSC 487W Software Engineering <br>
+Jacq Lee `jxl6891`
 
-## Getting Started
+# Project 2
 
-First, run the development server:
+### Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Login page](docu/login.png)
+Login page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Tenant active requests](docu/tenantactive.png)
+Tenant active requests
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Tenant create request](docu/tenantnewreq.png)
+Tenant create requests
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Tenant request history](docu/tenantreqhist.png)
+Tenant request history
 
-## Learn More
+![Maintenance view active requests](docu/maintactive.png)
+Maintenance view active requests
 
-To learn more about Next.js, take a look at the following resources:
+![Maintenance view request history](docu/mainthist.png)
+Maintenance view request history
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Maintenance view filter history options](docu/maintfilter.png)
+![Maintenance view filter history filtered](docu/maintfilterapplied.png)
+Maintenance view filter history
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Manager view tenant details](docu/manager.png)
+Manager view tenant details

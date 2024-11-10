@@ -1,13 +1,15 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --fore10: color-mix(in oklab, var(--foreground) 10%, var(--background));
+  --fore20: color-mix(in oklab, var(--foreground) 20%, var(--background));
+  --fore30: color-mix(in oklab, var(--foreground) 30%, var(--background));
+  --fore40: color-mix(in oklab, var(--foreground) 40%, var(--background));
+  --fore50: color-mix(in oklab, var(--foreground) 50%, var(--background));
+  --fore60: color-mix(in oklab, var(--foreground) 60%, var(--background));
+  --fore70: color-mix(in oklab, var(--foreground) 70%, var(--background));
+  --fore80: color-mix(in oklab, var(--foreground) 80%, var(--background));
+  --fore90: color-mix(in oklab, var(--foreground) 90%, var(--background));
 }
 
 html,
@@ -19,7 +21,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +41,43 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+button,
+input,
+textarea {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: var(--font-geist-sans);
+  outline: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.main {
+  position: absolute;
+
+  height: 80vh;
+  width: 80vw;
+  min-height: 30rem;
+  min-width: 40rem;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 18px;
+
+  background-color: var(--fore20);
+
+  --hover: var(--fore40);
 }

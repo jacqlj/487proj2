@@ -1,0 +1,39 @@
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: flex-start;
+
+  column-gap: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  width: 100%;
+
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+
+  background-color: var(--fore30);
+
+  .title {
+    font-weight: bolder;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

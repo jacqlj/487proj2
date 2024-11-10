@@ -1,0 +1,166 @@
+{
+  "requests": [
+    {
+      "id": "21938",
+      "unit": "3132-B",
+      "location": "Kitchen",
+      "problem": "Garbage disposal is not working properly. When turned on, instead of disposing garbage, inserted items are returned to sender.",
+      "createdAt": "2024-10-04T03:23:01",
+      "status": "pending"
+    },
+    {
+      "id": "21023",
+      "unit": "2032-B",
+      "location": "Bedroom",
+      "problem": "Window is not closing properly, air drafts are coming in.",
+      "createdAt": "2024-09-09T17:18:02",
+      "status": "completed"
+    },
+    {
+      "id": "20832",
+      "unit": "1302-B",
+      "location": "Bedroom",
+      "problem": "Window blinds missing slats, need replacement or repair.",
+      "createdAt": "2024-08-24T11:03:09",
+      "status": "pending"
+    },
+    {
+      "id": "19725",
+      "unit": "3132-B",
+      "location": "Living room",
+      "problem": "Television is installed upside down.",
+      "createdAt": "2024-10-03T18:54:27",
+      "image": "https://external-preview.redd.it/RkSjfTh7qGuBW910mZWLd_4vagEWYOnM1erkPxh1NZE.jpg?auto=webp&s=76c093643d9bfb761e3307bca3730fe57d45f859",
+      "status": "pending"
+    },
+    {
+      "id": "19103",
+      "unit": "1021-C",
+      "location": "Bathroom",
+      "problem": "Water pressure in shower is very low. Needs immediate attention.",
+      "createdAt": "2024-09-29T11:10:14",
+      "status": "completed"
+    },
+    {
+      "id": "18618",
+      "unit": "1204-A",
+      "location": "Living room",
+      "problem": "Living room light fixture is flickering intermittently, possibly wiring issue.",
+      "createdAt": "2024-09-28T20:47:56",
+      "status": "pending"
+    },
+    {
+      "id": "17511",
+      "unit": "2087-D",
+      "location": "Bedroom",
+      "problem": "Blinds are broken, cannot be adjusted properly.",
+      "createdAt": "2024-09-25T08:29:12",
+      "status": "completed"
+    },
+    {
+      "id": "16404",
+      "unit": "3171-B",
+      "location": "Kitchen",
+      "problem": "Dishwasher leaking water onto the floor.",
+      "createdAt": "2024-09-22T14:15:03",
+      "status": "pending"
+    },
+    {
+      "id": "15297",
+      "unit": "1905-C",
+      "location": "Bathroom",
+      "problem": "Toilet is clogged and won't flush properly.",
+      "createdAt": "2024-09-18T22:01:46",
+      "status": "completed"
+    },
+    {
+      "id": "14190",
+      "unit": "3123-A",
+      "location": "Hallway",
+      "problem": "Smoke detector is malfunctioning, constant beeping despite no smoke present.",
+      "createdAt": "2024-09-15T13:32:25",
+      "status": "pending"
+    },
+    {
+      "id": "13083",
+      "unit": "1004-D",
+      "location": "Living room",
+      "problem": "Carpet is stained and smells of mildew, needs cleaning or replacement.",
+      "createdAt": "2024-09-12T09:07:40",
+      "status": "completed"
+    },
+    {
+      "id": "10869",
+      "unit": "3132-B",
+      "location": "Kitchen",
+      "problem": "Refrigerator making loud, grinding noise, likely a motor issue.",
+      "image": "https://www.selecthomewarranty.com/blog/wp-content/uploads/2023/02/refrigerator-problems-1631x1080-1.jpeg",
+      "createdAt": "2024-09-06T16:47:11",
+      "status": "completed"
+    },
+    {
+      "id": "9762",
+      "unit": "3132-B",
+      "location": "Bedroom",
+      "problem": "Air conditioning unit is not cooling, only blowing warm air.",
+      "createdAt": "2024-09-03T12:31:22",
+      "status": "completed"
+    },
+    {
+      "id": "8655",
+      "unit": "4056-A",
+      "location": "Living room",
+      "problem": "Couch cushions are sagging and uncomfortable, needs replacement or fixing.",
+      "createdAt": "2024-09-01T19:08:47",
+      "status": "completed"
+    },
+    {
+      "id": "7548",
+      "unit": "2047-C",
+      "location": "Kitchen",
+      "problem": "Stove burner is not igniting, likely a gas or electrical issue.",
+      "createdAt": "2024-08-30T14:22:58",
+      "status": "pending"
+    },
+    {
+      "id": "6431",
+      "unit": "3125-D",
+      "location": "Bathroom",
+      "problem": "Shower drain is clogged, water is not draining properly.",
+      "createdAt": "2024-08-27T10:40:13",
+      "status": "completed"
+    },
+    {
+      "id": "4217",
+      "unit": "2158-A",
+      "location": "Hallway",
+      "problem": "Light in the hallway flickering intermittently, possibly a wiring issue.",
+      "createdAt": "2024-08-21T08:25:34",
+      "status": "completed"
+    },
+    {
+      "id": "3109",
+      "unit": "3132-B",
+      "location": "Living room",
+      "problem": "Living room window is cracked, needs replacement.",
+      "createdAt": "2024-08-18T20:14:02",
+      "status": "completed"
+    },
+    {
+      "id": "2002",
+      "unit": "4056-C",
+      "location": "Kitchen",
+      "problem": "Dishwasher is leaking water onto the floor during cycles.",
+      "createdAt": "2024-08-15T17:03:56",
+      "status": "completed"
+    },
+    {
+      "id": "891",
+      "unit": "3119-D",
+      "location": "Living room",
+      "problem": "Sofa bed mechanism is broken, cannot open or close properly.",
+      "createdAt": "2024-08-12T12:56:43",
+      "status": "pending"
+    }
+  ]
+}

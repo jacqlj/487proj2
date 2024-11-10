@@ -1,0 +1,14 @@
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+
+  background-color: var(--button-secondary-hover);
+  outline: var(--foreground) solid 1px;
+
+  font: inherit;
+  font-size: inherit;
+
+  &:hover {
+    background-color: var(--hover);
+  }
+}

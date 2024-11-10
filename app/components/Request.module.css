@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+
+  background-color: var(--fore30);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 0.5rem;
+  column-gap: 3rem;
+  align-items: first baseline;
+
+  & span:nth-child(2n-1) {
+    font-weight: bolder;
+  }
+
+  .completed {
+    font-weight: bolder;
+    color: #20c997;
+  }
+
+  .pending {
+    font-weight: bolder;
+    color: #ffc107;
+  }
+}
